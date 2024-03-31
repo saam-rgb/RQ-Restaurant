@@ -219,7 +219,7 @@ tr td a {
   font-size: 48px;
   font-weight: 600;
 }
-nav {
+.about-header nav {
   width: 80%;
   margin: 0px auto;
 }
@@ -313,4 +313,69 @@ nav {
 .footer {
   text-align: center;
   margin-bottom: 50px;
+}
+
+/* Menu Page */
+#menu-body {
+  background: #f02850;
+  color: #fff;
+}
+.menu-container {
+  width: 80%;
+  margin: auto;
+  text-transform: capitalize;
+}
+.menu-container nav {
+  margin-bottom: 30px;
+}
+.menu-container .nav-links ul li a:hover {
+  color: yellow;
+}
+.menu-container .nav-links .btn {
+  border: 1px solid #fff;
+}
+.menu-container h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+}
+.menu-container .cont-txt {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.menu-row h3 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.menu-col {
+  flex-basis: 34%;
+}
+.menu-content {
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+  border-radius: 10px;
+}
+.menu-content:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.menu-content img {
+  max-width: 110px;
+  margin: 10px 10px 10px 0;
+}
+.menu-txt h4 {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px dashed #8a8a8a;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.menu-txt span {
+  float: right;
 }
