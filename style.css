@@ -199,37 +199,118 @@ tr td a {
 }
 
 /* About Page */
-
+#about {
+  background-color: #f02850;
+  color: #fff;
+}
 .about-header {
+  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./img/abt.png);
   background-size: cover;
   background-position: center;
   margin: 0;
   color: #fff;
-  min-height: 80vh;
+  min-height: 60vh;
+  text-align: center;
+}
+.about-header .abt-head {
+  margin-top: 100px;
+  font-size: 48px;
+  font-weight: 600;
 }
 nav {
   width: 80%;
   margin: 0px auto;
 }
+
+/* Content */
 .about-content {
   width: 80%;
-  margin: 30px auto;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
-.about-content h1 {
-  font-size: 56px;
+.abt-row {
+  margin-top: 100px;
+  display: flex;
+}
+.abt-content {
+  flex-basis: 50%;
+  padding: 30px 2px;
+}
+.abt-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 0;
+}
+.abt-content p {
+  padding: 10px 0 25px;
+}
+.abt-content img {
+  width: 100%;
+}
+.abt-content .btn {
+  color: #f02850;
+  background: #fff;
+  border: 1px solid #de0530;
+}
+.abt-content .btn:hover {
+  background: #f02850;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Our Team */
+.about-team {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.about-team h1 {
+  text-align: center;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 .card-row {
   display: flex;
+  justify-content: space-between;
 }
 .card {
-  flex-basis: 32%;
+  background-color: #ff2c56;
+  flex-basis: 30%;
+  padding: 20px 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+}
+.card:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 .card img {
-  height: 300px;
-  width: 80%;
+  height: 350px;
+  width: 100%;
+}
+.card h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 5px 0 0 0;
+}
+.card h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.card p {
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-bottom: 50px;
 }
