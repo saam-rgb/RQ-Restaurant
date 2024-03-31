@@ -197,3 +197,39 @@ tr td a {
   text-decoration: none;
   color: #fff;
 }
+
+/* About Page */
+
+.about-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/abt.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  color: #fff;
+  min-height: 80vh;
+}
+nav {
+  width: 80%;
+  margin: 0px auto;
+}
+.about-content {
+  width: 80%;
+  margin: 30px auto;
+}
+.about-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.card-row {
+  display: flex;
+}
+.card {
+  flex-basis: 32%;
+}
+.card img {
+  height: 300px;
+  width: 80%;
+}
