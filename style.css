@@ -15,7 +15,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 10px 100px;
+  padding: 10px 120px;
 }
 nav {
   width: 100%;
@@ -56,7 +56,7 @@ nav img {
 }
 
 .nav-links ul li a:hover {
-  color: rgb(240, 40, 80);
+  color: #f02850;
 }
 
 .btn {
@@ -107,4 +107,90 @@ nav img {
 .content form .btn {
   font-size: 15px;
   padding: 10px 30px;
+}
+
+/* Contact Page */
+#contact-body {
+  /* background: rgb(255, 91, 124); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3.jpg);
+  color: #fff;
+  font-size: 14px;
+  background-size: Cover;
+}
+.contact-content {
+  width: 80%;
+  margin: 30px auto;
+}
+.contact-content a {
+  color: #fff;
+}
+.contact-content .current {
+  color: #8a8a8a;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.contact-content p {
+  margin-bottom: 20px;
+}
+.contact-row {
+  width: 100%;
+  display: flex;
+  background: #fff;
+}
+.contact-left {
+  flex-basis: 60%;
+  color: #f02850;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  background: #f02850;
+  padding: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid;
+  box-sizing: border-box;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px;
+}
+.contact-left .btn {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.btn-row {
+  display: flex;
+}
+
+h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+tr td {
+  padding-bottom: 20px;
+}
+tr td:first-child {
+  padding-right: 10px;
+}
+tr td a {
+  text-decoration: none;
+  color: #fff;
 }
