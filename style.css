@@ -116,10 +116,15 @@ nav img {
 #contact-body {
   /* background: rgb(255, 91, 124); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./img/3.jpg);
+    url(./img/mpage.png);
   color: #fff;
   font-size: 14px;
   background-size: Cover;
+}
+.reserv-content {
+  min-height: 100vh !important;
+  width: 100% !important;
+  margin: 0 auto !important;
 }
 .contact-content {
   width: 80%;
@@ -142,10 +147,18 @@ h1 {
   display: flex;
   background: #fff;
 }
+.reserv-row {
+  min-height: 100vh;
+  float: right;
+  width: 50%;
+}
 .contact-left {
   flex-basis: 60%;
   color: #f02850;
   padding: 40px 60px;
+}
+.reserv-box {
+  flex-basis: 100% !important;
 }
 .contact-right {
   flex-basis: 40%;
