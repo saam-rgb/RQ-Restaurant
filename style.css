@@ -160,6 +160,16 @@ h1 {
 .reserv-box {
   flex-basis: 100% !important;
 }
+
+.x-icon {
+  position: absolute;
+  left: 97%;
+  top: 25px;
+}
+
+.x-icon a {
+  color: #de0530;
+}
 .contact-right {
   flex-basis: 40%;
   background: #f02850;
