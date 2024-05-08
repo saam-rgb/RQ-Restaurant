@@ -7,9 +7,7 @@ Welcome to the RQ Restaurant website repository! This website showcases the culi
 - [Introduction](#introduction)
 - [Pages](#pages)
 - [Technologies Used](#technologies-used)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+- [Website Link](#how-to-use)
 
 ## Introduction
 
@@ -31,7 +29,7 @@ The website is developed using the following technologies:
 - CSS3: For styling and layout of the web pages.
 - GitHub: For version control and collaboration.
 
-## How to Use
+## Website Link
 
 To view the RQ Restaurant website:
 
